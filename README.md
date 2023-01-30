@@ -9,16 +9,26 @@ Andrii Kozar, student of Poznan University of Technology
 <p>To solve Semantic Segmentation problem, we use neural networks.</p>
 
 ## Dataset
-The dataset used in problem solving task is ADE20K. It is composed of more than 20K scene-centric images exhaustively annotated with pixel-level objects and object parts labels. There are totally 150 semantic categories, which include stuffs like sky, road, grass, and discrete objects like person, car, bed. The dataset contains images with 
+The dataset used in problem solving task is ADE20K. It is composed of more than 20K scene-centric images exhaustively annotated with pixel-level objects and object parts labels. There are totally 150 semantic categories, which include stuffs like sky, road, grass, and discrete objects like person, car, bed. The dataset contains images with appropriate masks.
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 
 ### Dataset stats used in project
 <ul>The current version of the dataset contains:
-  <li>22,210 images (20,210 for training and 2,000 for testing).</li>
+  <li>22,210 images (20,210 for training and 2,000 for validation).</li>
+  <li>3,489 images for testing (taken from separate unofficial release) </li>
   <li>150 categories (~classes)</li>
 </ul>
 
-## Architectures of NN
+## CNN architectures 
+<p>In my experiments I am working with 2 cnn architectures: U-Net and FCNN. They both are implemented from scratch.</p>
 ### U-Net
 
-### FCN
-## 
+### FCNN
+
+### Comparison of used models
+
+## Libraries and tools
+
+## Runtime environment
+
+## Bibliography
