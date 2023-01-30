@@ -68,6 +68,12 @@ The U-Net is a modification of a fully convolutional network (FCNN). It was intr
 ![comp_acc](https://github.com/Hatter01/semantic_segmentation/blob/main/images/opt_comp_acc.png)
 ![comp_loss](https://github.com/Hatter01/semantic_segmentation/blob/main/images/opt_comp_loss.png)
 
+<p>When playing with fcn_testing.ipynb file, we save logs when train the model. They can be used in tensorboard. Write the following command in console:</p>
+
+```
+tensorboard dev upload --logdir ./logs --name "some_name"
+```
+
 ## Libraries and tools
 <p>Python libraries used in the project:</p>
 <ul>
